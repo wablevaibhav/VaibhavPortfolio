@@ -1,27 +1,43 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-/build
-
-
-# misc
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
 .DS_Store
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
 
-#user generated content
-public/profile.json
-public/blogs.json
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

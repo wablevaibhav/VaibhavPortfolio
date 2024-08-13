@@ -1,0 +1,31 @@
+[
+	{
+		"value": 0.5,
+		"title": "Dart"
+	},
+	{
+		"value": 0.8,
+		"title": "Kotlin"
+	},
+	{
+		"value": 0.9,
+		"title": "HTML"
+	},
+	{
+		"value": 0.8,
+		"title": "Javascript"
+	},
+	{
+		"value": 0.8,
+		"title": "Angular"
+	},
+
+	{
+		"value": 0.8,
+		"title": "Java"
+	},
+	{
+		"value": 1.0,
+		"title": "C / C++"
+	}
+]
